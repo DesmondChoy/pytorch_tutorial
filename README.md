@@ -1,4 +1,4 @@
-In this notebook we will create an image classifier to detect playing cards.
+In this notebook we will create an image classifier to detect [playing cards](https://www.kaggle.com/datasets/gpiosenka/cards-image-datasetclassification/data).
 
 We will tackle this problem in 3 parts:
 1. Pytorch Dataset
