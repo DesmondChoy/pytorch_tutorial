@@ -1,10 +1,19 @@
 In this notebook we will create an image classifier to detect [playing cards](https://www.kaggle.com/datasets/gpiosenka/cards-image-datasetclassification/data).
 
-We will tackle this problem in 3 parts:
-1. Pytorch Dataset
+This notebook contains the following sections:
+
+1. Create Pytorch Dataset (and Dataloader)
 2. Pytorch Model
-3. Pytorch Training Loop
+2.5 Setup datasets
+3. Training Loop
+4. Evaluate model performance on test set
 
-Almost every pytorch model training pipeline meets this paradigm.
+Selecting the `efficientnet_b3` model and training it for 5 epochs, these were the final results: 
 
-Credits to [Rob Mulla](https://www.kaggle.com/code/robikscube/train-your-first-pytorch-model-card-classifier) for this tutorial.
+* Train loss: 0.129
+* Validation loss: 0.188
+* Test loss: 0.136
+
+Indicating little evidence of overfitting.
+
+Credits to [Rob Mulla](https://www.kaggle.com/code/robikscube/train-your-first-pytorch-model-card-classifier) for his Kaggle notebook and this [informative video tutorial](https://www.youtube.com/watch?v=tHL5STNJKag).
