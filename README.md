@@ -1,5 +1,9 @@
 In this notebook we will create an image classifier to detect [playing cards](https://www.kaggle.com/datasets/gpiosenka/cards-image-datasetclassification/data).
 
+Note: To run this notebook, you'd need to download the dataset (code provided in the notebook) and place it in the folder like so: 
+
+![file structure](image.png)
+
 This notebook contains the following sections:
 
 1. Create Pytorch Dataset (and Dataloader)
